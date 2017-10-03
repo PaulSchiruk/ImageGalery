@@ -2,26 +2,7 @@
     ViewBag.Title = "Home Page";
 }
 
-<!-- Таблица стилей CSS -->
-<style type="text/css">
-    h2 {
-        margin: 0;
-        color: #666;
-        padding-top: 90px;
-        font-size: 52px;
-        font-family: "trebuchet ms", sans-serif;
-    }
-
-    .item {
-        background: #333;
-        text-align: center;
-        height: 300px !important;
-    }
-
-    .carousel {
-        margin-top: 20px;
-    }
-</style>
+@Styles.Render("~/Content/Site.css")
 
 <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
     <!-- Индикаторы для карусели -->
