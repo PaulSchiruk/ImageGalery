@@ -5,73 +5,80 @@
 @Styles.Render("~/Content/lightbox.min.css")
 @Scripts.Render("~/Content/lightbox-plus-jquery.min.js")
 
-    <div class="container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-            </ol>
+<div class="container"> 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <a href="~/Content/Images/1s.jpeg" data-lightbox="roadtrip">
-                        <img src="~/Content/Images/1.jpg" alt="pepe" style="width:100%;">
-                        </a>
-                        <div class="carousel-caption">
-                            <h3>Pepe</h3>
-                            <p>some txt</p>
-                        </div>
-</div>
-
-                <div class="item">
-                    <img src="~/Content/Images/2s.jpeg" alt="cat" style="width:100%;">
-                    <div class="carousel-caption">
-                        <h3>Cat</h3>
-                        <p>some txt</p>
-                    </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="~/Content/Images/1.jpg" data-lightbox="roadtrip">
+                    <img src="~/Content/Images/1s.jpg" alt="pepe" style="width:100%;">
+                </a>
+                <div class="carousel-caption">
+                    <h3>Pepe</h3>
+                    <p>some txt</p>
                 </div>
-
-                <div class="item">
-                    <img src="~/Content/Images/3s.jpeg" alt="dog" style="width:100%;">
-                    <div class="carousel-caption">
-                        <h3>dog</h3>
-                        <p>some txt</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="~/Content/Images/4s.jpeg" alt="sunset" style="width:100%;">
-                    <div class="carousel-caption">
-                        <h3>SS</h3>
-                        <p>some txt</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img src="~/Content/Images/5s.jpeg" alt="duck" style="width:100%;">
-                    <div class="carousel-caption">
-                        <h3>Duck</h3>
-                        <p>some txt</p>
-                    </div>
-                </div>
-
-                
             </div>
 
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
+            <div class="item">
+                <a href="~/Content/Images/2.jpeg" data-lightbox="roadtrip">
+                    <img src="~/Content/Images/2s.jpg" alt="cat" style="width:100%;">
+                </a>
+                <div class="carousel-caption">
+                    <h3>Cat</h3>
+                    <p>some txt</p>
+                </div>
+            </div>
 
+            <div class="item">
+                <a href="~/Content/Images/3.jpg" data-lightbox="roadtrip">
+                    <img src="~/Content/Images/3s.jpg" alt="dog" style="width:100%;">
+                </a>
+                <div class="carousel-caption">
+                    <h3>dog</h3>
+                    <p>some txt</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <a href="~/Content/Images/4.jpg" data-lightbox="roadtrip">
+                    <img src="~/Content/Images/4s.jpg" alt="ss" style="width:100%;">
+                </a>
+                <div class="carousel-caption">
+                    <h3>SS</h3>
+                    <p>some txt</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <a href="~/Content/Images/5.jpg" data-lightbox="roadtrip">
+                    <img src="~/Content/Images/5s.jpg" alt="duck" style="width:100%;">
+                </a>
+                <div class="carousel-caption">
+                    <h3>Duck</h3>
+                    <p>some txt</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
